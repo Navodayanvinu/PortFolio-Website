@@ -1,0 +1,127 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about_container,#about {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #Experience,
+  .experience_details_container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section_container {
+    display: block;
+  }
+  .about_section_container{
+        display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section_container {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+  .pic_container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about_container {
+    margin-top: 0;
+    width: 2vw;
+  }
+
+  /* #about, .about_section_container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 2rem;
+    } */
+  .about_pic {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article{
+    font-size: 1rem;
+  }
+  footer nav{
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+ .about_container,
+ .btn_container,
+ .contact_info_upper_container
+ {
+    flex-wrap: wrap;
+ }
+ .contact_info_container{
+    margin: 0;
+ }
+ .contact_info_container p
+ {   
+    font-size: 1rem;
+
+ }
+.media{
+    font-size: 1rem;
+    flex-wrap: wrap;
+} 
+
+.experiece_sub_title{
+    font-size: 1.25rem;
+}
+
+.nav_link {
+    flex-direction: column;
+    text-align: center;
+}
+
+}
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate((10px, 5px));
+}
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate((10px, -5px));
+}
+.hamburger-icon span:first-child {
+  transform: none;
+}
+.hamburger-icon span:first-child {
+  opacity: 1;
+}
+.hamburger-icon span:first-child {
+  transform: none;
+}
