@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
@@ -69,6 +69,10 @@
     justify-content: space-around;
     padding: 30px;
 }
+#profile, .section_container {
+  dis
+}
+
 }
 
 @media screen and (max-width: 477px) {
